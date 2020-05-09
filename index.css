@@ -1,0 +1,56 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+}
+
+span
+{
+  font-size: 16px;
+}
+
+#information-panel
+{
+  padding: 12px;
+  border-radius: 12px 12px 0px 0px;
+
+  background-color: #CCC;
+}
+
+#information-panel__title
+{
+  font-weight: bold;
+}
+
+#information-panel > div
+{
+  display: inline-block;
+
+  margin: 0px 16px;
+}
+
+
+#application-content > div
+{
+  display: inline-block;
+  vertical-align: top;
+
+  height: 480px;
+
+  background-color: #DDD;
+}
+
+#engine__entity_tree
+{
+  width: 240px;
+  padding: 8px;
+}
+
+#application-content > #engine__view
+{
+  width: 640px;
+  height: 480px;
+
+  background-color: #AAA;
+}
