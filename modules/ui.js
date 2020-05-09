@@ -58,9 +58,9 @@ export class RendererModule extends Module
 
     noSmooth();
     setAttributes('antialias', true);
-    noStroke();
-    fill(this.#settings.background_color);
-    rect(0, 0, this.#settings.size.x(), this.#settings.size.y());
+    // noStroke();
+    // fill(this.#settings.background_color);
+    // rect(0, 0, this.#settings.size.x(), this.#settings.size.y());
 
     this.#rootWidget.render();
   }

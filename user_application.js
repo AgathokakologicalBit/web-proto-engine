@@ -19,8 +19,8 @@ export class UserApplicationModule extends Module
   {
     Engine.instance().findModule('engine.ui').setRootWidget(
       this.#mainFrame = new ui.Frame({
-        'size': new Vector2D(256, 256),
-        // 'background_color': 'steelblue',
+        'size': new Vector2D(400, 300),
+        'background_color': '#444',
         'border_color': 'wheat',
       })
     );
